@@ -1,0 +1,18 @@
+futbol = {
+            "Cambio de cancha":"Pasar el balon de un lado al otro",
+            "GOL":"Meter el balon al arco",
+             "Arguero":"Pegarle al palo de arriba con el balon",
+             "Penal":"Meter el balon desde los diez metros",
+             "Taco":"Darle al balon con la parte trasera del pie",
+             "Tabas":"Zapatillas de futbol",
+             "Sombrerito":"Pasar el balon por arriba de la cabeza del oponente",
+            "Fusilazo":"Pegarle muy fuerte al balon",
+            }
+While True:
+word = input ("Escribe una palabra que no entiendas (¡con mayúsculas!): ")
+
+if word in futbol.keys():
+    print(futbol[word])
+else:
+    print("No se encontro la palabra")
+Brake   
